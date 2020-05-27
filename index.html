@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cargar CSV</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="split">
+      <h1>Orden de datos</h1>
+
+      <section class="split1">
+          <select class="selecciona">
+
+              <option value="sabor">Sabor</option>
+              <option value="color">Color</option>
+              <option value="grado">Grado</option>
+              <option value="dinero">Dinero</option>
+              <option value="situacion">situación</option>
+            </select>
+        
+            <button class="btn__ordenaA"> Definitivamente quien no</button>
+            <button class="btn__ordenaB"> Definitivamente quien si</button>
+      </section>
+
+    <h1>Similitud Coseno</h1>
+
+    <section class="split2">
+
+      <select class="coseno1">
+          <option value="">-</option>
+      </select>
+
+      <select class="coseno2">
+          <option value="">-</option>
+      </select>
+      <button class="ejecutar">Ejecutar</button>
+
+      <h1 class="similitud">Similitud: </h1>
+
+    </section>
+
+  </section>
+
+  <script src="/librerias/jquery-3.4.1.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
