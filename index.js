@@ -174,7 +174,7 @@ function ejecutarSimilitud (){
 
     }
     else if (selecciona.value === "sabor") {
-      console.log("Columna B ordenado de forma Ascendente");
+      console.log("Sabor ordenado de forma Ascendente");
       informacion.sort(function (objetoA, objetoB) {
 
         //Ordenar por ID
